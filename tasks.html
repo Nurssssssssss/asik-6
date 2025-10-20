@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sources</title>
+  <link rel="stylesheet" href="tasks.css">
+</head>
+<body>
+
+  <header class="header_main">
+    <img id="mainPGJ_Paul" src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg" alt="Wikipedia">
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="Vicip.html">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Sources</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+
+
+      <div class="right_header">
+      <form action="search.html" method="get" class="search-form">
+        <label for="search">Поиск:</label>
+          <input type="text" id="search" name="q" placeholder="Введите запрос">
+          <button type="submit">Найти</button>
+      </form>
+      <button id="openModal">Sign In</button>
+      </div>
+
+      <div>
+        <button id="themeBtn" type="button">Dark</button>
+      </div>
+  </header>
+
+
+  <div class="container">
+
+    <!-- Левая часть -->
+    <main>
+      <!-- Главные события -->
+      <section class="block">
+        <h2>Sources</h2>
+        <p><a href="#">viewing</a> · <a href="#">discussion</a> · <a href="#">edit</a> · <a href="#">suggest adding an event</a></p>
+
+        <h3>Current topics</h3>
+        <ul>
+          <li><a href="https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B9%D0%BD%D0%B0_%D0%BD%D0%B0_%D0%91%D0%BB%D0%B8%D0%B6%D0%BD%D0%B5%D0%BC_%D0%92%D0%BE%D1%81%D1%82%D0%BE%D0%BA%D0%B5_(%D1%81_2023)">war in the Middle East</a></li>
+          <li>russia's invasion of Ukraine (September)</li>
+          <li><a href="tasks2.html">Paul Newman</a></li>
+          <li>world championships (wrestling · volleyball · athletics)</li>
+        </ul>
+
+        <h4>Isaac Bonga</h4>
+        <div class="player" id="isaac">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/2023-08-09_Deutschland_gegen_Kanada_%28Basketball-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93069.jpg/120px-2023-08-09_Deutschland_gegen_Kanada_%28Basketball-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93069.jpg" alt="Исаак Бонга">
+          <ul>
+              <li>At the Emmy Awards ceremony, “Pitt Hospital” was named Best Drama Series, “Film Studio” was named Best Comedy Series, and “Transition Age” was named Best Miniseries.</li>
+              <li>The German men's basketball team became European champions for the second time in history (MVP of the final — Isaac Bonga).</li>
+              <li>Former Brazilian President Jair Bolsonaro has been sentenced to 27 years in prison for conspiracy.</li>
+              <li>American activist Charlie Kirk killed during speech.</li>
+              <li>19 Russian drones invaded Polish airspace; NATO aircraft were deployed for the first time to intercept them.</li>
+              <li>Israel launched an airstrike on the Hamas headquarters in Doha.</li>
+        </ul>
+        </div>
+
+        <h3>Recently deceased</h3>
+        <ul>
+          <li>Robert Redford</li>
+          <li>Eddie Jacomin</li>
+          <li>Ricky Hatton</li>
+          <li>Andrey Chemerkin</li>
+          <li>Nicky Ryan</li>
+          <li>Polly Holliday</li>
+        </ul>
+      </section>
+
+      <!-- Последние события -->
+      <section class="block">
+        <h2>Recent events</h2>
+        <p><a href="#">viewing</a> · <a href="#">discussion</a> · <a href="#">history</a> · <a href="#">edit</a></p>
+        <p>Anyone can add or edit an entry! Please cite a reliable source.</p>
+
+        <h3>September 14</h3>
+        <ul>
+          <li><strong>Спорт</strong>: Germany won gold at the European Basketball Championship (88-83 against Turkey). Isaac Bonga was named MVP of the final.</li>
+        </ul>
+
+        <h3>September 13</h3>
+        <ul>
+          <li>Mass anti-immigration protests took place in London (100,000 participants).</li>
+        </ul>
+
+        <h3>September 12</h3>
+        <ul>
+          <li><strong>Disasters</strong>: Two people died when a cable car broke on Mount Elbrus.</li>
+        </ul>
+
+        <h3>September 11</h3>
+        <ul>
+          <li><strong>International relations</strong>: The Belarusian authorities released 52 political prisoners, and the US lifted sanctions on Belavia.</li>
+          <li><strong>Crimes</strong>: Jair Bolsonaro sentenced to 27 years in prison for plotting a coup.</li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Правая часть -->
+    <aside>
+      <section class="block">
+          <h3>Search</h3>
+          <form>
+              <input type="text" placeholder="Enter your query">
+              <button type="submit">Search</button>
+          </form>
+      </section>
+
+
+      <section class="block">
+        <h3>Now:</h3>
+        <p>Time: <span id="currentTime">--:--</span></p>
+        <p>Date: <span id="currentDate">--/--/----</span></p>
+        <table class="calendar">
+          <tr>
+            <th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th>
+          </tr>
+          <tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+          <tr><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr>
+          <tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td></tr>
+        </table>
+      </section>
+
+
+      <section class="block nav">
+        <h3>Other links</h3>
+        <ul>
+          <li><a href="F:\Nurbolat wiki\Vici\Vicip.html">Home</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+      </section>
+
+        <div class="modal" id="modal">
+          <div class="modal-inner">
+            <h2>Fill the form!</h2>
+            <form action="#" class="form_validation" id="form_add">
+              <div class="form_item">
+                <label for="name" class="form_label">Name:</label>
+                <input type="text" id="name" class="form_input">
+              </div>
+              <div class="form_item">
+                <label for="surname" class="form_label">Surname:</label>
+                <input type="text" id="surname" class="form_input">
+              </div>
+              <div class="form_item">
+                <label for="email" class="form_label">Email:</label>
+                <input type="email" id="email" class="form_input">
+              </div>
+              <button class="form_btn" type="submit">Send</button>
+            </form>
+            <button id="closeModal">Close</button>
+          </div>
+        </div>
+
+        <section class="block">
+          <h3>Change Background:</h3>
+          <button id="redBtn" style="background-color: red;">Red</button>
+          <button id="blueBtn" style="background-color: blue;">Blue</button>
+          <button id="greenBtn" style="background-color: green;">Green</button>
+          </section>
+
+
+    </aside>
+  </div>
+    <footer class="footer">
+      <p>The work was done by Nurbolat, Dulat and Erasyl.</p>
+    </footer>
+    <script src="tasks_main.js"></script>
+  </body>
+  </html>
